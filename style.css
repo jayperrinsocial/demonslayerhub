@@ -169,6 +169,9 @@ p {
 .character-card.zenitsu:hover {
   box-shadow: 0 0 20px #ffd700; /* golden yellow glow */
 }
+.character-card.nezuko:hover {
+  box-shadow: 0 0 20px #ff69b4; /* soft pink glow */
+}
 
 /* --- EPISODES GRID --- */
 .episode-grid {
