@@ -166,6 +166,9 @@ p {
 .character-card.tanjiro:hover {
   box-shadow: 0 0 20px #00ff66;
 }
+.character-card.zenitsu:hover {
+  box-shadow: 0 0 20px #ffd700; /* golden yellow glow */
+}
 
 /* --- EPISODES GRID --- */
 .episode-grid {
