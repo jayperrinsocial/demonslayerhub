@@ -163,6 +163,9 @@ p {
   transform: translateY(-8px);
   box-shadow: 0 0 20px #ff0000;
 }
+.character-card.tanjiro:hover {
+  box-shadow: 0 0 20px #00ff66;
+}
 
 /* --- EPISODES GRID --- */
 .episode-grid {
