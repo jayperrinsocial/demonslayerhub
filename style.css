@@ -163,30 +163,35 @@ p {
   transform: translateY(-8px);
   box-shadow: 0 0 20px #ff0000;
 }
+
+/* --- CHARACTER COLOUR VARIANTS --- */
 .character-card.tanjiro:hover {
-  box-shadow: 0 0 20px #00ff66;
+  box-shadow: 0 0 20px #00ff66; /* green */
 }
+
 .character-card.zenitsu:hover {
-  box-shadow: 0 0 20px #ffd700; /* golden yellow glow */
+  box-shadow: 0 0 20px #ffd700; /* yellow */
 }
+
 .character-card.nezuko:hover {
-  box-shadow: 0 0 20px #ff69b4; /* soft pink glow */
+  box-shadow: 0 0 20px #ff69b4; /* pink */
 }
-/* Hashira Hover Effects */
+
+/* --- HASHIRA COLOUR VARIANTS --- */
 .character-card.muichiro:hover {
-  box-shadow: 0 0 20px #5fd1ff; /* misty blue glow */
+  box-shadow: 0 0 20px #5fd1ff; /* misty blue */
 }
 
 .character-card.gyomei:hover {
-  box-shadow: 0 0 20px #bcbcbc; /* grey stone glow */
+  box-shadow: 0 0 20px #bcbcbc; /* grey stone */
 }
 
 .character-card.mitsuri:hover {
-  box-shadow: 0 0 20px #ff7eb9; /* bright pink love glow */
+  box-shadow: 0 0 20px #ff7eb9; /* bright pink */
 }
 
 .character-card.giyu:hover {
-  box-shadow: 0 0 20px #00bfff; /* water blue glow */
+  box-shadow: 0 0 20px #00bfff; /* water blue */
 }
 
 /* --- EPISODES GRID --- */
