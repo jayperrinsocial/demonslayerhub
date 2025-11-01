@@ -1,1 +1,53 @@
+/* --- GENERAL RESET --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #eee;
+  background-color: #0d0d0d;
+  line-height: 1.6;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(10, 10, 10, 0.9);
+  padding: 20px 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid rgba(255, 0, 0, 0.2);
+}
+
+.logo {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 1.8em;
+  color: #ff4545;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #ff0000;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #eee;
+  font-weight: 500;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #ff4545;
+  text
 
