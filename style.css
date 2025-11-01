@@ -172,6 +172,22 @@ p {
 .character-card.nezuko:hover {
   box-shadow: 0 0 20px #ff69b4; /* soft pink glow */
 }
+/* Hashira Hover Effects */
+.character-card.muichiro:hover {
+  box-shadow: 0 0 20px #5fd1ff; /* misty blue glow */
+}
+
+.character-card.gyomei:hover {
+  box-shadow: 0 0 20px #bcbcbc; /* grey stone glow */
+}
+
+.character-card.mitsuri:hover {
+  box-shadow: 0 0 20px #ff7eb9; /* bright pink love glow */
+}
+
+.character-card.giyu:hover {
+  box-shadow: 0 0 20px #00bfff; /* water blue glow */
+}
 
 /* --- EPISODES GRID --- */
 .episode-grid {
