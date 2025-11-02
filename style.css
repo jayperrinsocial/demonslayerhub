@@ -272,3 +272,7 @@ footer em {
     padding: 80px 25px;
   }
 }
+/* Hide Hashira images on main page */
+.hashiras img {
+  display: none;
+}
