@@ -97,6 +97,18 @@
     <p>&copy; 2025 Demon Slayer Hub. All Rights Reserved.</p>
     <p>Fan site inspired by the world of <em>Kimetsu no Yaiba</em>.</p>
   </footer>
+  <script>
+  // Highlight active nav link based on current page
+  const currentPage = window.location.pathname.split("/").pop();
+  const navLinks = document.querySelectorAll(".navbar a");
+
+  navLinks.forEach(link => {
+    const linkPage = link.getAttribute("href");
+    if (linkPage === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script>
 
 </body>
 </html>
