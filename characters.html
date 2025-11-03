@@ -9,40 +9,52 @@
 </head>
 <body>
 
+  <!-- NAVBAR -->
   <header class="navbar">
-  <div class="logo">Demon Slayer Hub</div>
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="characters.html">Characters</a></li>
-      <li><a href="hashiras.html">Hashira's</a></li>
-      <li><a href="#">Episodes</a></li>
-      <li><a href="#">Manga</a></li>
-      <li><a href="#">Gallery</a></li>
-    </ul>
-  </nav>
-</header>
+    <div class="logo">Demon Slayer Hub</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="characters.html" class="active">Characters</a></li>
+        <li><a href="hashiras.html">Hashira's</a></li>
+        <li><a href="#">Episodes</a></li>
+        <li><a href="#">Manga</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- CHARACTER PAGE -->
   <section class="characters-page">
     <h2>Main Characters</h2>
     <div class="character-grid">
-      <div class="character-card tanjiro">
-        <img src="image/tanjiro.jpg" alt="Tanjiro Kamado">
-        <h3>Tanjiro Kamado</h3>
-      </div>
+
+      <!-- TANJIRO (Clickable Card) -->
+      <a href="tanjiro.html" class="character-link">
+        <div class="character-card tanjiro">
+          <img src="image/tanjiro.jpg" alt="Tanjiro Kamado">
+          <h3>Tanjiro Kamado</h3>
+        </div>
+      </a>
+
+      <!-- NEZUKO -->
       <div class="character-card nezuko">
         <img src="image/nezuko.jpg" alt="Nezuko Kamado">
         <h3>Nezuko Kamado</h3>
       </div>
+
+      <!-- ZENITSU -->
       <div class="character-card zenitsu">
         <img src="image/zenitsu.jpg" alt="Zenitsu Agatsuma">
         <h3>Zenitsu Agatsuma</h3>
       </div>
+
+      <!-- INOSUKE -->
       <div class="character-card inosuke">
         <img src="image/inosuke.jpg" alt="Inosuke Hashibira">
         <h3>Inosuke Hashibira</h3>
       </div>
+
     </div>
   </section>
 
@@ -51,18 +63,6 @@
     <p>&copy; 2025 Demon Slayer Hub. All Rights Reserved.</p>
     <p>Fan site inspired by the world of <em>Kimetsu no Yaiba</em>.</p>
   </footer>
-  <script>
-  // Highlight active nav link based on current page
-  const currentPage = window.location.pathname.split("/").pop();
-  const navLinks = document.querySelectorAll(".navbar a");
-
-  navLinks.forEach(link => {
-    const linkPage = link.getAttribute("href");
-    if (linkPage === currentPage) {
-      link.classList.add("active");
-    }
-  });
-</script>
 
 </body>
 </html>
