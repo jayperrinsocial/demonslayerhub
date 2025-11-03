@@ -187,11 +187,7 @@ p {
 .character-card.nezuko:hover {
   box-shadow: 0 0 20px #ff69b4; /* pink */
 }
-/* Make character cards clickable */
-.character-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
+
 }
 
 .character-link:hover .character-card {
