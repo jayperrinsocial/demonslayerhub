@@ -283,3 +283,23 @@ footer em {
 .hashiras img {
   display: none;
 }
+/* --- MANGA FEATURED IMAGE --- */
+.manga-image-container {
+  margin: 40px auto;
+  max-width: 600px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #ff0000;
+}
+
+.manga-image-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.manga-image-container img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 30px #ff4545;
+}
